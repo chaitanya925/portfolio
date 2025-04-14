@@ -9,11 +9,22 @@ body {
 
 header {
     background-color: #333;
-    color: #fff;
+    color: pink;
     padding: 20px;
     text-align: center;
 }
-
+nav ul {  /* it removes the style of the unordered list */
+    list-style: none;
+    padding: 0;
+  }
+  nav ul li {     /* displays lists in inline style side by side*/
+    display: inline;
+    margin: 0 15px;
+  }
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
 section {
     padding: 20px;
     margin: 20px auto;
